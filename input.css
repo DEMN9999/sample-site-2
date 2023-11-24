@@ -5,4 +5,4 @@ header{background:rgba(0,0,0,0.5) url(https://images.unsplash.com/photo-16069267
 .borderBottom::after{content:'';position: absolute;width: 0px;height: 0.1rem;background-color: rgb(224, 213, 0);border-radius:10%;left:50%;transform: translateX(-50%);bottom:-0.1rem;transition: 0.2s;}
 nav img{backdrop-filter:brightness(50%);border-left: 2px solid rgb(224, 213, 0);}
 nav img:hover{background:linear-gradient(to right,rgb(224, 213, 0),transparent);-webkit-background-image:linear-gradient(to left,rgb(224, 213, 0),transparent);}
-.navGradient{background:linear-gradient(90deg,transparent,rgb(224, 213, 0),rgb(224, 213, 0),transparent);-webkit-background-image:linear-gradient(90deg,transparent ,rgb(224, 213, 0),rgb(224, 213, 0),transparent);}
+.navGradient{background:linear-gradient(90deg,transparent,rgb(224, 213, 0),rgb(224, 213, 0),transparent);-webkit-background-image:linear-gradient(90deg,transparent ,rgb(224, 213, 0),rgb(224, 213, 0),transparent);} 
