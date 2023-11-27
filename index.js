@@ -1,1 +1,2 @@
-const hide=()=>{let btn1=document.getElementsByTagName(`div`)[0];btn1.style.display=(`none`);document.body.style.overflowY=(`auto`)}
+const hide=()=>{let btn1=document.getElementsByTagName(`div`)[0];btn1.style.display=(`none`);document.body.style.overflowY=(`auto`)};
+window.addEventListener('scroll', function () {let nav = document.querySelector('nav');nav.classList.toggle(`stickey`, window.scrollY > 240)});
