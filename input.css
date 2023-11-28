@@ -5,5 +5,9 @@
 .barswidth1{animation: slidein1 1 3s ease-in-out; animation-fill-mode: forwards;}@keyframes slidein1 {0%{width: 0%;}100%{width: 100%;}}
 header{background:rgba(0,0,0,0.5) url(https://images.unsplash.com/photo-1606926730770-218d179a690e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHllbGxvdyUyMGFuZCUyMGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D) no-repeat center/cover fixed;background-blend-mode:darken;}
 .borderBottom::after{content:'';position: absolute;width: 0px;height: 0.1rem;background-color: rgb(224, 213, 0);border-radius:10%;left:50%;transform: translateX(-50%);bottom:-0.1rem;transition: 0.2s;}
-nav img{backdrop-filter:brightness(50%);border-left: 2px solid rgb(224, 213, 0);}nav{background-color: transparent;transition: 1s}nav.stickey{background-color: rgba(7, 7, 7, 0.782);padding: 1rem 6rem;transition: 1s;}nav img:hover{background:linear-gradient(to right,rgb(224, 213, 0),transparent);-webkit-background-image:linear-gradient(to left,rgb(224, 213, 0),transparent);}
+nav img{backdrop-filter:brightness(50%);border-left: 2px solid rgb(224, 213, 0);}nav{background-color: transparent;transition: 1s}nav.stickey{background-color: rgba(7, 7, 7, 0.782);padding: 1rem 6rem;transition: 1s;}nav img:hover{background:linear-gradient(to right,rgb(224, 213, 0),transparent);-webkit-background-image:linear-gradient(to left,rgb(224, 213, 0),transparent);}#navv{transition: 1s;}
 .navGradient{background:linear-gradient(90deg,transparent,rgb(224, 213, 0),rgb(224, 213, 0),transparent);-webkit-background-image:linear-gradient(90deg,transparent ,rgb(224, 213, 0),rgb(224, 213, 0),transparent);} 
+#card1{transition: 0.3s;}#card1:hover{scale:1.05;transition: 0.3s;}
+#card2{transition: 0.3s;}#card2:hover{scale:1.05;transition: 0.3s;}
+#card3{transition: 0.3s;}#card3:hover{scale:1.05;transition: 0.3s;}
+#card4{transition: 0.3s;}#card4:hover{scale:1.05;transition: 0.3s;}
