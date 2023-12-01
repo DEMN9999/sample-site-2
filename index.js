@@ -6,5 +6,5 @@ let a=document.querySelector(`section`);let htmlBar=a.querySelectorAll(`div`)[13
 window.addEventListener(`scroll`,function(){htmlBar.classList.toggle((`barswidth1`),window.scrollY>1078);cssBar.classList.toggle((`barswidth1`),window.scrollY>1138);jsBar.classList.toggle((`barswidth1`),window.scrollY>1200);});
 const clickin=()=>{ham_burger.style.scale=(`0.9`);};const clickout=()=>{ham_burger.style.scale=(`1`);}
 ham_burger.addEventListener(`click`,()=>{if(menu.style.display!=`block`){menu.style.display=`block`}else{menu.style.display=`none`}})
-ham_burger.addEventListener(`click`,()=>{})
+
 
