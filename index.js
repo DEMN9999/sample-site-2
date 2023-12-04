@@ -6,10 +6,10 @@ let button3=document.querySelectorAll(`button`)[2];
 let button4=document.querySelectorAll(`button`)[3];
 let button5=document.querySelectorAll(`button`)[4];
 let button6=document.querySelectorAll(`button`)[5];
-let width=`640px`;
-let buttonsLength=document.querySelectorAll(`button`).length
 let a=document.querySelector(`section`);let htmlBar=a.querySelectorAll(`div`)[13];let cssBar=a.querySelectorAll(`div`)[16];let jsBar=a.querySelectorAll(`div`)[19];
 const hide=()=>{let btn1=document.getElementsByTagName(`div`)[0];btn1.style.display=(`none`);document.body.style.overflowY=(`auto`)};
+menu.firstElementChild.querySelectorAll(`a`)[0].addEventListener(`click`,()=>{menu.style.display=(`none`)});
+menu.firstElementChild.querySelectorAll(`a`)[1].addEventListener(`click`,()=>{menu.style.display=(`none`)});menu.firstElementChild.querySelectorAll(`a`)[2].addEventListener(`click`,()=>{menu.style.display=(`none`)});menu.firstElementChild.querySelectorAll(`a`)[3].addEventListener(`click`,()=>{menu.style.display=(`none`)});
 window.addEventListener('scroll', function () {let nav = document.querySelector('nav');nav.classList.toggle(`stickey`, window.scrollY > 240)});
 window.addEventListener(`scroll`,()=>{htmlBar.classList.toggle((`barswidth1`),window.scrollY>1078);cssBar.classList.toggle((`barswidth1`),window.scrollY>1138);jsBar.classList.toggle((`barswidth1`),window.scrollY>1200);});
 ham_burger.addEventListener(`click`,()=>{if(menu.style.display!=`block`){menu.style.display=`block`}else{menu.style.display=`none`}})
