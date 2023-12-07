@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 *{scroll-behavior: smooth;}
+.hideen{display: none;}
 .hoverOnCard:hover::after{content:"";position: absolute;width   : 100%;height: 100%;background-color: rgb(234,179,8);bottom: 0;left: 0;border-radius: 10px;animation: backgroundcolorofcardin 0.5s 1 ease-in-out forwards;}@keyframes backgroundcolorofcardin {0%{height: 0%;}100%{height: 100%;}}
 .removeableHidden{display: none;animation: Manu 1 1s ease-in forwards; overflow: hidden;}@keyframes Manu{0%{height: 0;}90%{height: 100vh;}100%{height: 95vh;}}
 .barswidth1{animation: slidein1 1 3s ease-in-out; animation-fill-mode: forwards;}@keyframes slidein1 {0%{width: 0%;}100%{width: 100%;}}
